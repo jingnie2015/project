@@ -1,0 +1,34 @@
+@import "./componets/titleBar";
+@import "./componets/button";
+@import "./componets/items";
+@import "./componets/form";
+@import "./componets/player";
+
+
+*{
+  margin :0;
+  padding:0;
+}
+html{
+  font-size:62.5%;
+}
+
+body{
+  color:#a0a0a0;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 1.6rem;
+
+}
+h1{
+  font-weight: 300;
+  font-size:2.4rem;
+}
+input,button,select{
+  font-size:1.3rem;
+}
+
+.wrapper{
+  margin:0 auto;
+  max-width:50rem;
+  padding:1.3rem;
+}
